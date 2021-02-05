@@ -1,4 +1,3 @@
-El primer paso es descomprimir el fichero SOURCE.zip que contiene los ficheros fuente del programa.
 Es necesario descomprimir las dos carpetas src y lib de la carpeta SOURCE en el mismo directorio.
 Para ejecutar el programa debe situarse en la carpeta src y compilar el programa con el siguiente comando:
 
