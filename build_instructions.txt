@@ -1,0 +1,24 @@
+El primer paso es descomprimir el fichero SOURCE.zip que contiene los ficheros fuente del programa.
+Es necesario descomprimir las dos carpetas src y lib de la carpeta SOURCE en el mismo directorio.
+Para ejecutar el programa debe situarse en la carpeta src y compilar el programa con el siguiente comando:
+
+
+WINDOWS: javac -classpath ".;../lib/*;/IA/Azamon/*"  main.java
+
+LINUX: javac -classpath ".:../lib/*:/IA/Azamon/*"  main.java
+
+
+Una vez compilado, para ejecutarlo debe introducir el comando:
+
+
+WINDOWS: java -classpath ".;../lib/*;/IA/Azamon/*"  main [PARAMETERS]
+
+LINUX: java -classpath ".:../lib/*:/IA/Azamon/*"  main [PARAMETERS]
+
+
+Reemplazando [PARAMETERS] por los parámetros de ejecución, por ejemplo:
+
+
+WINDOWS: java -classpath ".;../lib/*;/IA/Azamon/*"  main Simulated Annealing 100 1234 1.2 1 1 1
+
+LINUX: java -classpath ".:../lib/*:/IA/Azamon/*"  main Simulated Annealing 100 1234 1.2 1 1 1
